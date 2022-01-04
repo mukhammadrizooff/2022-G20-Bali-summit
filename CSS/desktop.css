@@ -108,7 +108,7 @@
   }
 
   .h2-bg .head-main {
-    background: url("/images/h2-bg.jpg") center center / cover;
+    background: url("../images/h2-bg.jpg") center center / cover;
     color: transparent;
     background-clip: content-box;
     -webkit-background-clip: text;
@@ -277,7 +277,7 @@
   .head-about {
     display: flex;
     flex-direction: column;
-    background-image: url("/images/about-bg.png");
+    background-image: url("../images/about-bg.png");
     background-size: contain;
     padding: 80px 100px;
     gap: 50px;
