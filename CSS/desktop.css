@@ -92,7 +92,7 @@
     gap: 3.5rem;
     padding: 2.4rem;
     padding-left: 10.8rem;
-    background-image: url("/images/desktop-bg.png");
+    background-image: url("../images/desktop-bg.png");
     background-repeat: no-repeat;
     background-position: center;
   }
