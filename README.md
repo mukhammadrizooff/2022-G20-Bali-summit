@@ -5,6 +5,8 @@
 **The 2022 G20 Bali summit is the upcoming seventeenth meeting of Group of Twenty (G20), the summit scheduled to take place in Bali, Indonesia, in 2022.**
 
 > One paragraph statement about the project.
+> ![2022-01-05_03-43-21](https://user-images.githubusercontent.com/63915024/148134074-9eb1871b-d56f-45e8-b250-3ee850e735aa.png)
+
 
 
 
