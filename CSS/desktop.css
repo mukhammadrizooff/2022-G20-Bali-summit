@@ -1,0 +1,373 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+
+:root {
+  --font-family-lato: "Lato", sans-serif;
+  --font-family-coco: "COCOGOOSE", sans-serif;
+  --main-orange-color: #ec5242;
+  --main-dark-color: #272a31;
+  --main-gray-color: #d3d3d3;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrap-btn,
+  .wrap-btn-about {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-top-list {
+    display: flex;
+    gap: 40px;
+    padding: 6px;
+    padding-right: 200px;
+    font-size: 15px;
+    justify-content: flex-end;
+    background-color: var(--main-dark-color);
+  }
+
+  .nav-top-list a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-top-list li {
+    list-style: none;
+  }
+
+  .desktop-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 10px;
+    padding-right: 180px;
+  }
+
+  .desktop-menu .logo {
+    padding-left: 160px;
+  }
+
+  .desktop-menu-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 20px;
+    padding: 14px;
+    cursor: auto;
+  }
+
+  .desktop-menu-list .link {
+    text-decoration: none;
+    color: var(--main-dark-color);
+  }
+
+  .desktop-menu-list .link:hover {
+    color: var(--main-orange-color);
+  }
+
+  .desktop-menu-list .menu-list-btn {
+    border: var(--main-orange-color) solid 4px;
+    padding: 16px;
+  }
+
+  .main .nav {
+    display: flex;
+  }
+
+  .about .nav {
+    display: flex;
+  }
+
+  .head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 3.5rem;
+    padding: 2.4rem;
+    padding-left: 10.8rem;
+    background-image: url("/images/desktop-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .head-top {
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .h2-bg .head-main {
+    background: url("/images/h2-bg.jpg") center center / cover;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    line-height: 0.975em;
+  }
+
+  .head-main {
+    padding: 0.2em;
+    font-size: 100px;
+  }
+
+  .main-text {
+    font-size: 18px;
+    line-height: 40px;
+    width: 50%;
+  }
+
+  .head-data {
+    color: var(--main-dark-color);
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .main-place {
+    color: var(--main-dark-color);
+    font-size: 24px;
+  }
+
+  .program {
+    padding: 60px;
+  }
+
+  .program .program-title {
+    font-size: 42px;
+  }
+
+  .main-card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .main-card .card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    width: 500px !important;
+    height: 300px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .main-card .card:hover {
+    transform: scale(1.1);
+    border: 2px solid var(--main-orange-color);
+  }
+
+  .lecture h2 {
+    color: var(--main-orange-color);
+    font-size: 27px;
+    font-weight: 700;
+  }
+
+  .main-card .card .lecture {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-card .card .lorem-text {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .program-down-text {
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 20px 100px;
+    margin: 10px auto;
+  }
+
+  .card-button-mob {
+    display: none;
+  }
+
+  .speakers .speakers-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+  }
+
+  .speakers .speakers-card .speaker {
+    width: 40%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+  .speakers .speakers-card .speaker-img {
+    height: 7rem;
+    width: 7rem;
+    box-shadow: -5px -5px var(--main-orange-color);
+  }
+
+  .speakers .speakers-card .speaker .speaker-text .speaker-job,
+  .speakers .speakers-card .speaker .speaker-text .speaker-info {
+    font-size: 20px;
+  }
+
+  .speakers .more {
+    display: none;
+  }
+
+  .partner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px 0;
+    background-color: var(--main-dark-color);
+    color: #fff;
+    text-align: center;
+    opacity: 0.8;
+  }
+
+  .partner .partner-title {
+    font-size: 30px;
+    color: #e9ecef;
+  }
+
+  .partner-line {
+    display: flex;
+    background-color: var(--main-orange-color);
+    height: 0.2rem;
+    width: 4rem;
+    margin: 0 auto;
+  }
+
+  .partner .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 1rem;
+    gap: 45px;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .partner .partners-list .column {
+    float: left;
+    width: 100%;
+  }
+
+  .end {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 340px;
+    font-size: 14px;
+  }
+
+  .end .logo {
+    width: 60px;
+  }
+
+  .head-about {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/images/about-bg.png");
+    background-size: contain;
+    padding: 80px 100px;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .about-top {
+    display: none;
+  }
+
+  .head-about .line {
+    display: flex;
+    background-color: var(--main-orange-color);
+    height: 4px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: -20px;
+  }
+
+  .head-about .about-title {
+    font-size: 100px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 100px;
+  }
+
+  .head-about .about-text {
+    width: 70%;
+    font-size: 22px;
+    color: var(--main-dark-color);
+    background-color: #fff;
+    text-align: left;
+    line-height: 30px;
+  }
+
+  .head-about .about-contact {
+    margin-bottom: -8px;
+    font-size: 18px;
+    color: var(--main-dark-color);
+  }
+
+  .about-summit {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+  }
+
+  .about-summit .about-summit-info {
+    font-size: 20px;
+  }
+
+  .about-summit-img {
+    padding: 60px;
+    width: 70%;
+    height: 650px;
+  }
+
+  .about-summits {
+    background-color: #f5f6f7;
+  }
+
+  .about-summits .about-summit-images {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    justify-content: center;
+  }
+
+  .about-summits .about-summit-images .about-summit-info-img1 {
+    width: 30%;
+    font-size: 30px;
+  }
+
+  .about-summits .about-summit-images .about-summit-info-img2 {
+    width: 30%;
+    font-size: 30px;
+  }
+
+  .partner-about {
+    display: none;
+  }
+
+  .end-about {
+    color: #fff;
+    background-color: var(--main-dark-color);
+    padding: 50px 30px;
+  }
+}
