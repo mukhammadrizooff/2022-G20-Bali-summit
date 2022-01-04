@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# 2022-G20-Bali-summit 
+# First Capstone Project
 
 **The 2022 G20 Bali summit is the upcoming seventeenth meeting of Group of Twenty (G20), the summit scheduled to take place in Bali, Indonesia, in 2022.**
 
