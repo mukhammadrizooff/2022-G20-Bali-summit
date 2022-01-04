@@ -84,8 +84,6 @@
   }
 
   .head {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -104,17 +102,17 @@
     font-weight: 700;
   }
 
-  .h2-bg .head-main {
-    background: url("/images/h2-bg.jpg") center center / cover;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    line-height: 0.975em;
-  }
-
   .head-main {
     padding: 0.2em;
     font-size: 100px;
+  }
+
+  .h2-bg .head-main {
+    background: url("/images/h2-bg.jpg") center center / cover;
+    color: transparent;
+    background-clip: none;
+    -webkit-background-clip: text;
+    line-height: 0.975em;
   }
 
   .main-text {

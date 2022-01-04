@@ -41,11 +41,12 @@ body {
 }
 
 .mobile-menu .close-btn {
-  font-family: "Lato" sans-serif;
+  font-family: var(--font-family-lato);
   position: absolute;
+  font-size: 40px;
   top: 2%;
   right: 8%;
-  color: rgb(214, 121, 121);
+  color: rgb(255, 255, 255);
   opacity: 0.875;
 }
 
@@ -108,8 +109,8 @@ body {
 .h2-bg .head-main {
   background: url("/images/h2-bg.jpg") center center / cover;
   color: transparent;
+  background-clip: none;
   -webkit-background-clip: text;
-  background-clip: text;
 }
 
 .main-text {
@@ -420,24 +421,14 @@ body {
 
 .about-summits .about-summit-info-img1 {
   margin-bottom: 4rem;
-  background-image: linear-gradient(
-      45deg,
-      rgba(235, 59, 59, 0.5),
-      rgba(251, 78, 78, 0.5)
-    ),
-    url("/images/about-img-1.jpg");
+  background-image: linear-gradient(45deg, rgba(235, 59, 59, 0.5), rgba(251, 78, 78, 0.5)), url("/images/about-img-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .about-summits .about-summit-info-img2 {
-  background-image: linear-gradient(
-      45deg,
-      rgba(235, 59, 59, 0.5),
-      rgba(251, 78, 78, 0.5)
-    ),
-    url("/images/about-img-3.jpg");
+  background-image: linear-gradient(45deg, rgba(235, 59, 59, 0.5), rgba(251, 78, 78, 0.5)), url("/images/about-img-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

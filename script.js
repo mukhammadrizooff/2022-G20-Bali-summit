@@ -46,7 +46,6 @@ openMain.addEventListener('click', openHome);
 openSponsor.addEventListener('click', openHome);
 menuOpenAbout.addEventListener('click', openAboutSection);
 
-
 for (let i = 0; i < hamburgerBtn.length; i += 1) {
   hamburgerBtn[i].addEventListener('click', openMenu);
 }
