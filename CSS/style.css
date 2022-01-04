@@ -109,7 +109,7 @@ body {
 .h2-bg .head-main {
   background: url("/images/h2-bg.jpg") center center / cover;
   color: transparent;
-  background-clip: none;
+  background-clip: content-box;
   -webkit-background-clip: text;
 }
 
