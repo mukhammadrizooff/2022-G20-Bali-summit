@@ -491,3 +491,9 @@ body {
 .end {
   display: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .lorem-text {
+    padding-left: 15vw;
+  }
+}
