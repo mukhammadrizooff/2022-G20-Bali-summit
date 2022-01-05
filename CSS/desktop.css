@@ -154,13 +154,13 @@
     flex-direction: column;
     padding: 24px;
     width: 500px !important;
-    height: 300px;
+    height: 350px;
     transition: transform 0.2s ease-in-out;
   }
 
   .main-card .card:hover {
     transform: scale(1.1);
-    border: 2px solid var(--main-orange-color);
+    border: 2px solid white;
   }
 
   .lecture h2 {
@@ -177,6 +177,7 @@
   .main-card .card .lorem-text {
     font-size: 18px;
     text-align: center;
+    width: 10vw;
   }
 
   .program-down-text {
