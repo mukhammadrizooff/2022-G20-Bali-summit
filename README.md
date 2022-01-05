@@ -27,7 +27,7 @@
 
 ## Website description
 
-[Presentation video](https://www.loom.com/share/264efbcf7d95436fb3067c294a58aa3a)
+[Presentation video](https://www.loom.com/share/1517a93228224fb6a64ab6bd521d811d)
 
 ## Author
 
@@ -42,6 +42,9 @@
 - Type git clone, and then paste the URL you copied earlier.
 `$ git clone https://github.com/mukhammadrizooff/Portfolio_Template.git`
 - Finally press Enter 
+
+## Acknowledgements
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
