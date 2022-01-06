@@ -163,27 +163,22 @@
     border: 2px solid white;
   }
 
-  .main-card .card .lecture {
-    display: flex;
-    flex-direction: column;
-  }
-
   .lecture {
     display: flex;
     align-items: center;
     gap: 20px;
-    color: #ec5242;
+    color: var(--main-orange-color);
+  }
+
+  .main-card .card .lecture {
+    display: flex;
+    flex-direction: column;
   }
 
   .lecture h2 {
     color: var(--main-orange-color);
     font-size: 20px;
     font-weight: 700;
-  }
-
-  .main-card .card .lecture {
-    display: flex;
-    flex-direction: column;
   }
 
   .main-card .card .lorem-text {
