@@ -211,7 +211,6 @@ body {
   margin: 20px auto;
 }
 
-
 .speakers {
   display: flex;
   flex-direction: column;
@@ -419,14 +418,24 @@ body {
 
 .about-summits .about-summit-info-img1 {
   margin-bottom: 4rem;
-  background-image: linear-gradient(45deg, rgba(235, 59, 59, 0.5), rgba(251, 78, 78, 0.5)), url(../images/about-img-1.jpg);
+  background-image: linear-gradient(
+      45deg,
+      rgba(235, 59, 59, 0.5),
+      rgba(251, 78, 78, 0.5)
+    ),
+    url(../images/about-img-1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .about-summits .about-summit-info-img2 {
-  background-image: linear-gradient(45deg, rgba(235, 59, 59, 0.5), rgba(251, 78, 78, 0.5)), url(../images/about-img-3.jpg);
+  background-image: linear-gradient(
+      45deg,
+      rgba(235, 59, 59, 0.5),
+      rgba(251, 78, 78, 0.5)
+    ),
+    url(../images/about-img-3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
