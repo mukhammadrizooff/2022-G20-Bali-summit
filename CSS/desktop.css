@@ -152,9 +152,9 @@
   .main-card .card {
     display: flex;
     flex-direction: column;
-    padding: 24px;
+    padding: 180px 24px 180px 24px;
     width: 500px !important;
-    height: 350px;
+    height: 300px;
     transition: transform 0.2s ease-in-out;
   }
 
@@ -163,9 +163,21 @@
     border: 2px solid white;
   }
 
+  .main-card .card .lecture {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lecture {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #ec5242;
+  }
+
   .lecture h2 {
     color: var(--main-orange-color);
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 700;
   }
 
@@ -177,7 +189,6 @@
   .main-card .card .lorem-text {
     font-size: 18px;
     text-align: center;
-    width: 10vw;
   }
 
   .program-down-text {
@@ -274,6 +285,11 @@
   .end .logo {
     width: 60px;
     padding-right: 150px;
+  }
+
+  .end h2 {
+    font-size: 25px;
+    width: 30vw;
   }
 
   .head-about {

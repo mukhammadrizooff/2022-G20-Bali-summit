@@ -136,11 +136,11 @@ body {
   padding-bottom: 28px;
 }
 
-.program {
+ .program {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  color: #fff;
+  color: white;
   background-color: var(--main-dark-color);
   background-image: url(../images/program-bg.jpg);
   background-repeat: repeat;
@@ -150,7 +150,6 @@ body {
 .program-title {
   font-size: 28px;
   text-align: center;
-  padding: 20px;
   color: #e9ecef;
 }
 
@@ -183,7 +182,6 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 15px;
   color: var(--main-orange-color);
 }
 
@@ -192,10 +190,9 @@ body {
 }
 
 .lecture h2 {
-  color: var(--main-orange-color);
-  font-size: 20px;
+  color: #ec5242;
+  font-size: 15px;
   font-weight: 700;
-  padding: 12px;
 }
 
 .lorem-text {
@@ -212,7 +209,7 @@ body {
   text-align: center;
   padding: 12px 24px;
   margin: 20px auto;
-}
+} 
 
 .speakers {
   display: flex;
@@ -493,7 +490,81 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .program {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #fff;
+    background-color: var(--main-dark-color);
+    background-image: url(../images/program-bg.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  
+  .program-title {
+    font-size: 28px;
+    text-align: center;
+    padding: 20px;
+    color: #e9ecef;
+  }
+  
+  .program .red-line {
+    background-color: var(--main-orange-color);
+    width: 100px;
+    height: 0.2rem;
+    padding-top: 0;
+    margin: 0 auto;
+  }
+  
+  .main-card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: #e9ecef;
+    padding: 5px;
+    margin: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.089);
+  }
+  
+  .lecture {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    color: var(--main-orange-color);
+  }
+  
+  .lecture-icon {
+    width: 60px;
+  }
+  
+  .lecture h2 {
+    color: var(--main-orange-color);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px;
+  }
+  
   .lorem-text {
     padding-left: 15vw;
+  }
+  
+  .program-down-text {
+    display: none;
+  }
+  
+  .card-button-mob {
+    background-color: var(--main-orange-color);
+    font-size: 22px;
+    text-align: center;
+    padding: 12px 24px;
+    margin: 20px auto;
   }
 }
