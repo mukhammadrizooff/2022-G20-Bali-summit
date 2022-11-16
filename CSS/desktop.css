@@ -149,6 +149,10 @@
     padding: 30px;
   }
 
+  .card {
+    border: 2px solid transparent;
+  }
+
   .main-card .card {
     display: flex;
     flex-direction: column;
@@ -158,10 +162,13 @@
     transition: transform 0.2s ease-in-out;
   }
 
-  .main-card .card:hover {
-    transform: scale(1.1);
-    border: 2px solid white;
+  .card:hover {
+    border-color: white;
   }
+
+  /* .main-card .card:hover {
+   transform: scale(1.1); border: 2px solid white;
+} */
 
   .lecture {
     display: flex;
